@@ -1,0 +1,27 @@
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.card{
+    width: 90%;
+    background-color: hsl(0, 0%, 12%);
+    padding: 3rem 2rem;
+}
+
+.img{
+    display:flex;
+    justify-content: center;
+}
+img{
+    width: 30%;
+    border-radius: 100%;
+}
+
+.info{
+    display:flex ;
+    flex-direction: column;
+    text-align: center;
+}

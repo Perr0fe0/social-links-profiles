@@ -1,0 +1,14 @@
+.btn{
+    transition: .2s;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border-style: none;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.btn:hover{
+    transition: .2s;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
