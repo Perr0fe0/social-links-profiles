@@ -12,7 +12,7 @@ const CardProfile = () => {
 
                 <div className='info'>
                     <h1>Jessica Randall</h1>
-                    <h2>London, United Kingdom</h2>
+                    <h2 className='green'>London, United Kingdom</h2>
                     <p>"Front-end developer and avid reader."</p>
                 </div>
                 <div className='buttons'>

@@ -1,14 +1,45 @@
+:root{
+    --neutral-dark-grey:  hsl(0, 0%, 12%);
+}
 .buttons{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     
 }
 .card{
     width: 90%;
-    background-color: hsl(0, 0%, 12%);
-    padding: 3rem 2rem;
+    background-color:var(--neutral-dark-grey);
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+@media (min-width: 450px){
+    .card{
+        width: 80%;
+    }
+}
+@media (min-width: 500px){
+    .card{
+        width: 70%;
+    }
+}
+@media (min-width: 550px){
+    .card{
+        width: 60%;
+    }
+}
+@media (min-width: 800px){
+    .card{
+        width: 35rem;
+    }
+}
+
+@media (min-width: 1440px){
+    .card{
+        width: 35rem;
+    }
 }
 
 .img{
@@ -25,3 +56,4 @@ img{
     flex-direction: column;
     text-align: center;
 }
+

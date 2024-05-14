@@ -1,14 +1,20 @@
+:root{
+    --primary-green:hsl(75, 94%, 57%);
+    --neutral-grey:hsl(0, 0%, 20%);
+    --neutral-dark-grey:hsl(0, 0%, 12%);
+}
 .btn{
     transition: .2s;
-    background-color: hsl(0, 0%, 20%);
+    background-color: var(--neutral-grey);
     color: white;
     border-style: none;
     margin-top: 2rem;
-    padding: 2rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
 }
 
 .btn:hover{
     transition: .2s;
-    background-color: hsl(75, 94%, 57%);
-    color: hsl(0, 0%, 12%);
+    background-color: var(--primary-green);
+    color: var(--neutral-dark-grey);
 }
